@@ -9,21 +9,21 @@
 	body, input, select, textarea {
 		color: _palette(fg);
 		font-family: _font(family);
-		font-size: 17pt;
+		font-size: 18px;
 		font-weight: _font(weight);
 		letter-spacing: _font(letter-spacing);
 		line-height: 1.65;
 
 		@include breakpoint(xlarge) {
-			font-size: 14pt;
+			font-size: 18px;
 		}
 
 		@include breakpoint(large) {
-			font-size: 12pt;
+			font-size: 17px;
 		}
 
 		@include breakpoint(xxsmall) {
-			font-size: 11pt;
+			font-size: 16px;
 		}
 	}
 
@@ -68,6 +68,7 @@
 		font-weight: _font(weight-bold);
 		line-height: 1.65;
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
+		text-transform: none;
 
 		a {
 			color: inherit;
@@ -75,16 +76,24 @@
 		}
 	}
 
+	h1, h2 {
+		text-transform: none;
+		letter-spacing: 0.01em;
+	}
+
 	h1 {
-		font-size: 2.5em;
+		font-size: 2.75em;
+		font-weight: 700;
 	}
 
 	h2 {
-		font-size: 1.75em;
+		font-size: 2.25em;
+		font-weight: 600;
 	}
 
 	h3 {
-		font-size: 1.35em;
+		font-size: 1.5em;
+		font-weight: 500;
 	}
 
 	h4 {
@@ -101,15 +110,15 @@
 
 	@include breakpoint(small) {
 		h1 {
-			font-size: 2em;
+			font-size: 2.25em;
 		}
 
 		h2 {
-			font-size: 1.5em;
+			font-size: 1.875em;
 		}
 
 		h3 {
-			font-size: 1.25em;
+			font-size: 1.375em;
 		}
 	}
 

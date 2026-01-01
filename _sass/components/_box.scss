@@ -8,8 +8,10 @@
 
 	.box {
 		border: solid 1px _palette(border);
+		border-radius: _size(border-radius);
 		margin-bottom: _size(element-margin);
 		padding: 1.5em;
+		background-color: _palette(bg);
 
 		> :last-child,
 		> :last-child > :last-child,
@@ -21,5 +23,6 @@
 			border: 0;
 			border-radius: 0;
 			padding: 0;
+			background-color: transparent;
 		}
 	}

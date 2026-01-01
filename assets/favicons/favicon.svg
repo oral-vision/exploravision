@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g clip-path="url(#SvgjsClipPath1068)"><rect width="1000" height="1000" fill="#ffffff"></rect><g transform="matrix(31.25,0,0,31.25,0,0)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Icon: U-shaped arc (jaw) with nodes (distributed learning) -->
+  <g id="icon" transform="translate(16, 9.25) rotate(180)">
+    <!-- U-shaped arc representing jaw, centered at origin -->
+    <path d="M -12 0 Q -12 -12, 0 -12 Q 12 -12, 12 0" fill="none" stroke="#1F3A5F" stroke-width="2" stroke-linecap="round"></path>
+    
+    <!-- Thin lines connecting the nodes -->
+    <line x1="-10.1" y1="-6.3" x2="0" y2="-11" stroke="#1F3A5F" stroke-width="0.5" stroke-linecap="round"></line>
+    <line x1="0" y1="-11" x2="10.1" y2="-6.3" stroke="#1F3A5F" stroke-width="0.5" stroke-linecap="round"></line>
+    <line x1="-10.1" y1="-6.3" x2="10.1" y2="-6.3" stroke="#1F3A5F" stroke-width="0.5" stroke-linecap="round"></line>
+    <line x1="0" y1="-11" x2="0" y2="-2" stroke="#1F3A5F" stroke-width="0.5" stroke-linecap="round"></line>
+    <line x1="-10.1" y1="-6.3" x2="0" y2="-2" stroke="#1F3A5F" stroke-width="0.5" stroke-linecap="round"></line>
+    <line x1="10.1" y1="-6.3" x2="0" y2="-2" stroke="#1F3A5F" stroke-width="0.5" stroke-linecap="round"></line>
+    
+    <!-- Nodes along the arc representing distributed learning -->
+    <circle cx="-10.1" cy="-6.3" r="2" fill="#1CA7A6"></circle>
+    <circle cx="0" cy="-11" r="2" fill="#1CA7A6"></circle>
+    <circle cx="10.1" cy="-6.3" r="2" fill="#1CA7A6"></circle>
+    <circle cx="0" cy="-2" r="2" fill="#4A6FA5"></circle>
+  </g>
+</svg></svg></g></g><defs><clipPath id="SvgjsClipPath1068"><rect width="1000" height="1000" x="0" y="0" rx="350" ry="350"></rect></clipPath></defs></svg>

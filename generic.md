@@ -1,13 +1,39 @@
 ---
 layout: post
-title: Generic
-description: Lorem ipsum dolor est
+title: OralVision Resources
+description: Links to all OralVision project information
 image: assets/images/pic11.jpg
-nav-menu: true
+nav-menu: false
 ---
 
-Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.
+# OralVision Project Information
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.
+Explore our comprehensive resources about OralVision, the deep learning-powered diagnostic device revolutionizing oral health care in underserved communities.
 
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.
+<div class="box">
+<p><strong>OralVision</strong>: Utilizing deep learning to revolutionize oral diagnostics in underserved communities. Our innovative device captures high-resolution images of the oral cavity and analyzes them in real-time using advanced machine learning algorithms.</p>
+</div>
+
+## Key Topics
+
+{% for post in site.posts %}
+<div class="row">
+	<div class="12u$">
+		<h3>{{ post.title }}</h3>
+		<p>{{ post.description }}</p>
+		<ul class="actions">
+			<li><a href="{{ post.url | relative_url }}" class="button special">Read More</a></li>
+		</ul>
+	</div>
+</div>
+{% endfor %}
+
+<hr class="major" />
+
+## Quick Navigation
+
+<ul class="actions">
+	<li><a href="{{ '/info/about' | relative_url }}" class="button">About OralVision</a></li>
+	<li><a href="{{ '/info/solution' | relative_url }}" class="button special">Our Solution</a></li>
+	<li><a href="{{ '/info/goals' | relative_url }}" class="button">Goals & Strategy</a></li>
+</ul>

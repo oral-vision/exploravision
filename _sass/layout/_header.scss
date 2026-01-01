@@ -14,19 +14,20 @@
 	#header {
 		@include vendor('display', 'flex');
 		background-color: _palette(bg-alt);
-		box-shadow: 0 0 0.25em 0 rgba(0,0,0,0.15);
+		box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
 		cursor: default;
-		font-weight: _font(weight-bold);
+		font-weight: _font(weight-semibold);
 		height: 3.25em;
 		left: 0;
-		letter-spacing: _font(letter-spacing-alt);
+		letter-spacing: 0.05em;
 		line-height: 3.25em;
 		margin: 0;
 		position: fixed;
-		text-transform: uppercase;
+		text-transform: none;
 		top: 0;
 		width: 100%;
 		z-index: _misc(z-index-base);
+		color: #FFFFFF;
 
 		.logo {
 			border: 0;
@@ -35,29 +36,39 @@
 			height: inherit;
 			line-height: inherit;
 			padding: 0 1.5em;
+			@include vendor('display', 'inline-flex');
+			@include vendor('align-items', 'center');
+
+			.logo-image {
+				height: 2em;
+				width: auto;
+				margin-right: 0.5em;
+				vertical-align: middle;
+				display: inline-block;
+			}
 
 			strong {
 				@include vendor('transition', (
 					'background-color #{_duration(transition)} ease-in-out',
 					'color #{_duration(transition)} ease-in-out'
 				));
-				background-color: _palette(fg-bold);
-				color: _palette(bg);
+				background-color: _palette(highlight);
+				color: #FFFFFF !important;
 				display: inline-block;
 				line-height: 1.65em;
 				margin-right: 0.325em;
-				padding: 0 0.125em 0 (_font(letter-spacing-alt) + 0.125em);
+				padding: 0 0.125em 0 0.225em;
 			}
 
 			&:hover {
 				strong {
-					background-color: _palette(highlight);
+					background-color: darken(_palette(highlight), 8%);
 				}
 			}
 
 			&:active {
 				strong {
-					background-color: desaturate(darken(_palette(highlight), 15), 5);
+					background-color: darken(_palette(highlight), 12%);
 				}
 			}
 		}
@@ -71,13 +82,19 @@
 
 			a {
 				border: 0;
+				color: #FFFFFF;
 				display: block;
-				font-size: 0.8em;
+				font-size: 0.9em;
 				height: inherit;
 				line-height: inherit;
 				padding: 0 0.75em;
 				position: relative;
 				vertical-align: middle;
+				@include vendor('transition', 'color #{_duration(transition)} ease-in-out');
+
+				&:hover {
+					color: _palette(highlight) !important;
+				}
 
 				&:last-child {
 					padding-right: 1.5em;
@@ -138,7 +155,7 @@
 			position: absolute;
 
 			&.style1 { .logo { strong { color: _palette(accent1); } } }
-			&.style2 { .logo { strong { color: _palette(accent2); } } }
+			&.style2 { .logo { strong { color: #FFFFFF !important; } } }
 			&.style3 { .logo { strong { color: _palette(accent3); } } }
 			&.style4 { .logo { strong { color: _palette(accent4); } } }
 			&.style5 { .logo { strong { color: _palette(accent5); } } }

@@ -63,11 +63,11 @@
 	label {
 		color: _palette(fg-bold);
 		display: block;
-		font-size: 0.8em;
-		font-weight: _font(weight-bold);
-		letter-spacing: _font(letter-spacing-alt);
+		font-size: 0.9em;
+		font-weight: _font(weight-semibold);
+		letter-spacing: 0.02em;
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
-		text-transform: uppercase;
+		text-transform: none;
 	}
 
 	input[type="text"],
@@ -78,8 +78,8 @@
 	textarea {
 		@include vendor('appearance', 'none');
 		background: _palette(border-bg);
-		border: none;
-		border-radius: 0;
+		border: 1px solid _palette(border);
+		border-radius: _size(border-radius);
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -93,7 +93,7 @@
 
 		&:focus {
 			border-color: _palette(highlight);
-			box-shadow: 0 0 0 2px _palette(highlight);
+			box-shadow: 0 0 0 2px rgba(28, 167, 166, 0.2);
 		}
 	}
 

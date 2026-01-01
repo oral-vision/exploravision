@@ -15,7 +15,7 @@
 			padding: 0 !important;
 
 			> :nth-child(2n - 1) {
-				@include padding(4em, 0, (0, 3em, 0, 0));
+				@include padding(0em, 0, (0, 3em, 0, 0));
 				border-right: solid 1px _palette(border);
 				width: 60%;
 				z-index: 1;
@@ -57,7 +57,7 @@
 				display: block;
 
 				> :nth-child(2n - 1) {
-					@include padding(4em, 0, (0, 0, 0, 0));
+					@include padding(0em, 0, (0, 0, 0, 0));
 					border-right: 0;
 					width: 100%;
 				}
@@ -70,9 +70,6 @@
 				> .split {
 					> * {
 						@include padding(3em, 0, (0, 0, 0, 0));
-
-						&:before {
-						}
 					}
 
 					> :first-child {
@@ -87,7 +84,28 @@
 		@include breakpoint(small) {
 			> .inner {
 				> :nth-child(2n - 1) {
-					@include padding(3em, 0, (0, 0, 0, 0));
+					@include padding(0em, 0, (0, 0, 0, 0));
+				}
+			}
+		}
+
+		// Restrict textarea resizing
+		> .inner > :nth-child(2n - 1) {
+			form {
+				max-width: 100%;
+				box-sizing: border-box;
+				padding-right: 1em;
+				
+				textarea {
+					max-width: 100%;
+					box-sizing: border-box;
+					resize: vertical;
+					width: 100%;
+				}
+				
+				.field {
+					max-width: 100%;
+					box-sizing: border-box;
 				}
 			}
 		}
