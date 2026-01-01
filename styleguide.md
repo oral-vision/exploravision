@@ -1,4 +1,4 @@
-# 🎨 Website Style Guide — Biomedical Oral Tech Company
+<!-- # 🎨 Website Style Guide — Biomedical Oral Tech Company
 
 *A scientific, professional style guide inspired by oral biomedical engineering, dental imaging, and medical device companies. Designed to pair cleanly with the **Minimal Mistakes** Jekyll theme.*
 
@@ -190,4 +190,4 @@ Common traits:
 
 ---
 
-*This style guide is optimized for academic competitions, medical credibility, and long-term scalability as a real biomedical company.*
+*This style guide is optimized for academic competitions, medical credibility, and long-term scalability as a real biomedical company.* -->
