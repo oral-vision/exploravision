@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Problem
+title: The History
 description: Why 70% of oral cancers are caught too late
 image: assets/images/problem.jpg
 show-tile: true

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: How It Works
-description: Hardware design, system architecture, and AI pipeline
+title: Our Design
+description: OralVision's hardware, system architecture, and AI pipeline
 image: assets/images/technical.png
 show-tile: true
-tile_order: 3
+tile_order: 2
 hide_image: false
 ---
 

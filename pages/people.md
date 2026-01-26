@@ -4,7 +4,7 @@ title: People
 description: The engineers and researchers behind OralVision
 image: assets/images/people.jpeg
 show-tile: true
-tile_order: 6
+tile_order: 4
 ---
 
 ## Our Story
@@ -15,9 +15,9 @@ OralVision was formed in response to rising rates of oral cavity and pharyngeal 
 
 <table>
     <tr style="text-align:center">
-        <td><img style="width:25vw; height:25vw;" src="\oral-vision\assets\images\headshots\alan.jpg"></td>
-        <td><img style="width:25vw; height:25vw;" src="\oral-vision\assets\images\headshots\zayan.jpg"></td>
-        <td><img style="width:25vw; height:25vw;" src="\oral-vision\assets\images\headshots\abdullah.jpg"></td>
+        <td><img style="width:25vw; height:25vw;" src="\oralvision-exploravision\assets\images\headshots\alan.jpg"></td>
+        <td><img style="width:25vw; height:25vw;" src="\oralvision-exploravision\assets\images\headshots\zayan.jpg"></td>
+        <td><img style="width:25vw; height:25vw;" src="\oralvision-exploravision\assets\images\headshots\abdullah.jpg"></td>
     </tr>
     <tr style="text-align:center">
         <td><h3>Alan Rajkumar</h3></td>

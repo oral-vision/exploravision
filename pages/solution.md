@@ -1,16 +1,12 @@
 ---
 layout: page
-title: Our Solution
-description: Utilizing deep learning to revolutionize oral diagnostics in underserved communities
+title: Additional Information
+description: More on how we're revolutionizing oral diagnostics in underserved communities
 image: assets/images/solution.jpg
 show-tile: true
 hide_image: true
-tile_order: 2
+tile_order: 3
 ---
-
-## Overview
-
-Unlike market alternatives, OralVision utilizes advanced machine learning to analyze intraoral photos and provide a detailed assessment of possible patient conditions. Furthermore, our innovation is significantly more affordable than conventional devices, making it more accessible to underprivileged communities.
 
 ## How It Works
 

@@ -126,7 +126,7 @@ baseurl: ""  # Empty for local development
 ### GitHub Pages Deployment
 Set `baseurl` to your repository name:
 ```yaml
-baseurl: "/oral-vision"  # Your GitHub repository name
+baseurl: "/oralvision-exploravision"  # Your GitHub repository name
 ```
 
 **Important**: Always rebuild the site after changing `baseurl`:
@@ -145,8 +145,8 @@ The repository includes an automatic check script that validates the baseurl con
   ```
 
 The script will:
-- ✅ **Pass** if baseurl is correct for the environment (empty for local, `/oral-vision` for GitHub Pages)
-- ❌ **Fail** in CI/production if baseurl is not `/oral-vision`
+- ✅ **Pass** if baseurl is correct for the environment (empty for local, `/oralvision-exploravision` for GitHub Pages)
+- ❌ **Fail** in CI/production if baseurl is not `/oralvision-exploravision`
 - ⚠️ **Warn** locally if baseurl is set incorrectly
 
 **Note**: The GitHub Actions workflow will automatically check baseurl before building and fail the deployment if it's incorrect, preventing broken deployments.
@@ -224,7 +224,7 @@ The `_config.yml` file contains site-wide settings:
 
 1. **Set the baseurl** in `_config.yml`:
    ```yaml
-   baseurl: "/oral-vision"  # Your repository name
+   baseurl: "/oralvision-exploravision"  # Your repository name
    url: "https://akhaled247.github.io"
    ```
 
@@ -254,7 +254,7 @@ The `_config.yml` file contains site-wide settings:
 
 Your site will be available at:
 ```
-https://akhaled247.github.io/oral-vision/
+https://akhaled247.github.io/oralvision-exploravision/
 ```
 
 ## Common Tasks
@@ -301,7 +301,7 @@ Then restart Jekyll.
 **Solution**: 
 1. Make sure `baseurl: ""` is set (empty string) in `_config.yml`
 2. Restart Jekyll server
-3. Access the site at `http://localhost:4000/` (not `/oral-vision/`)
+3. Access the site at `http://localhost:4000/` (not `/oralvision-exploravision/`)
 
 ### Changes Not Appearing
 

@@ -5,7 +5,7 @@ logo: /assets/favicons/favicon.svg
 email: oralvision25@gmail.com
 formspree: mvzgjzab
 description: Utilizing deep learning to revolutionize oral diagnostics<br />in underserved communities.
-baseurl: "/oral-vision" # the subpath of your site (set to "/oral-vision" for GitHub Pages)
+baseurl: "/oralvision-exploravision" # the subpath of your site (set to "/oralvision-exploravision" for GitHub Pages)
 url: "https://akhaled247.github.io" # the base hostname & protocol for your site
 author:
 street_address:
@@ -17,7 +17,7 @@ phone:
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+tiles-count: 4
 
 # social settings (key must match name of font awesome icon)
 # see https://fontawesome.com/icons?d=gallery&p=2&s=brands
