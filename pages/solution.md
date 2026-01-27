@@ -6,6 +6,8 @@ image: assets/images/solution.jpg
 show-tile: true
 hide_image: true
 tile_order: 3
+menu_order: 3
+nav-menu: true
 ---
 
 ## How It Works
@@ -25,9 +27,3 @@ We will only be transferring the new model weights given by client devices and n
 OralVision attempts to lower the ceiling for the diagnosis of oral malignancies by streamlining the processing pipeline. Users are not required to have any prior medical experience to utilize the device, as the minimal control system in conjunction with the software-level abstraction ensures a smooth user experience.
 
 Moreover, OralVision was designed with the limitations of its most prominent environment in mind, as it will be shipped with features such as rechargeable batteries and solar power capabilities pre-installed, lowering the barrier to usage and expediting the setup timeline. OralVision enables physicians in low-income areas without the practical nor technical experience in dentistry or stomatology to diagnose their patients effortlessly.
-
-## Competitive Protection
-
-In order to maintain our device's proprietary aspects, we will be privatizing our machine learning model and its weights so that our competitors cannot utilize the data we have. By using federated learning, we can ensure our model consistently stays ahead of competitors by using private data.
-
-Additionally, we will patent the instrument and the processor's design to prevent others from attempting to create similarly cost-effective devices. We will also be aggressively expanding in our early years to improve our model and incorporate our device to as many places as possible, gaining a competitive edge over the rest of the market.

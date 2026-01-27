@@ -2,10 +2,12 @@
 layout: page
 title: Our Design
 description: OralVision's hardware, system architecture, and AI pipeline
-image: assets/images/technical.png
+image: assets/images/specifics.png
 show-tile: true
 tile_order: 2
+menu_order: 2
 hide_image: false
+nav-menu: true
 ---
 
 ## Hardware Components

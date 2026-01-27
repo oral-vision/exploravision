@@ -1,10 +1,12 @@
 ---
 layout: post
-title: People
+title: About Us
 description: The engineers and researchers behind OralVision
 image: assets/images/people.jpeg
 show-tile: true
 tile_order: 4
+menu_order: 4
+nav-menu: true
 ---
 
 ## Our Story
