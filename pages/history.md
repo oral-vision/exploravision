@@ -10,26 +10,23 @@ menu_order: 1
 nav-menu: true
 ---
 
-## The Rising Crisis
+## Antiquity and Early Classification
 
-Over the past decade, oral cavity cancer rates have skyrocketed across the United States as a result of increased human papillomavirus (HPV) exposure. While oral cancer is quite treatable when caught early, nearly **70%** of cases are diagnosed in the later stages, largely because malignant oral mucosa lesions are often misdiagnosed as visually similar benign conditions like canker sores and fibromas.
+Oral cavity cancers are among the earliest malignancies documented in human history. Ancient medical texts from Egypt and India (c. 3000 BCE) describe ulcerative lesions of the mouth that were resistant to treatment and often fatal. The Greek philosopher Hippocrates later classified such growths as karkinos (cancer), recognizing their invasive and destructive nature. However, early physicians lacked both the anatomical knowledge and diagnostic tools necessary to distinguish malignant lesions from infections or trauma.
 
-## The Diagnostic Gap
+## Middle Ages and Renaissance
 
-In fact, a recent study published in MDPI's Healthcare journal showed that **54%** of oral cancer cases were misdiagnosed by dental practitioners and senior students, exemplifying the scale of diagnostic errors in the field of oral oncology.
+During the Middle Ages and Renaissance, oral cancers were primarily diagnosed by gross visual inspection and palpation. Lesions that were persistent, ulcerated, indurated, or bleeding were considered spiritually ominous. Treatment was largely surgical and rudimentary, often involving cauterization or excision without anesthesia. Thus, prognosis for oral cavity cancers was quite poor, largely due to late detection and the absence of standardized diagnostic criteria.
 
-## Healthcare Disparities
+## The 18th and 19th Centuries
 
-This diagnostic gap is only exacerbated by inequitable access to advanced healthcare technologies in underprivileged communities, with over **30%** of people living in these areas reported to have limited access to proper dental care. Even in Federally Qualified Health Centers (FQHCs), which are dedicated to serving the healthcare needs of low-income populations, cancer screening rates are substantially lower than the national average.
+However, a major conceptual shift occurred in the 18th and 19th centuries, when pathological anatomy and microscopy emerged. Italian anatomist Giovanni Battista Morgagni and later German physician Rudolf Virchow established that cancers arose from abnormal cells rather than imbalances of bodily humors (blood, yellow bile, black bile, and phlegm). This period marked the beginning of histopathology, which would become the gold standard for cancer diagnosis for most of the modern era.
 
-Unfortunately, this combination of diagnostic uncertainty and healthcare disparities leads to over **170,000 deaths annually** across the world, raising debates over whether existing diagnostic solutions are adequate to address the silent threat that oral cavity cancers pose.
+## The Early 20th Century
 
-## Inadequate Existing Solutions
+By the early 20th century, oral cavity cancers like oral squamous cell carcinoma (OSCC) were recognized as distinct clinical entities.  Epidemiological studies began linking oral cancer to tobacco use, including cigarette smoking and smokeless tobacco consumption. Meanwhile, in South and Southeast Asia, betel nut (areca nut) chewing was identified as a major carcinogenic risk factor. Subsequently, scalpel biopsy procedures were rapidly adopted worldwide, building upon previous advances in histopathology to aid in the diagnosis of oral cavity cancers.
 
-Most oral cancer imaging devices utilize fluorescence spectroscopy to illuminate abnormal tissue, but these methods cannot differentiate between benign and malignant lesions. Therefore, final diagnoses ultimately depend on unreliable visual examinations or expensive biopsy procedures that are often not feasibly accessible for people living in impoverished areas.
+## The Late 20th Century
 
-Moreover, these fluorescence-based devices can cost over **$2,000** per unit, further alienating clinics that serve low-income communities from utilizing affordable diagnostic tools.
+In the late 20th century, new diagnostic methods that were relatively less invasive than their predecessors were developed. Oral brush biopsies became widely used in place of invasive scalpel biopsies to collect dysplastic cells for histopathological analysis. More recently, fluorescence-based-imaging has been tested for the diagnosis of oral lesions, indicating a shift from histopathology to optical analysis.
 
-## Our Response
-
-OralVision aims to ameliorate these issues by offering a highly accurate, deep-learning-based imaging tool that is over 3 times cheaper than alternatives, ultimately contributing to decreased oral cavity cancer rates.
